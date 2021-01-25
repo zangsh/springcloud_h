@@ -1,0 +1,8 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: cloud-provider-server
+  profiles:
+    active: local

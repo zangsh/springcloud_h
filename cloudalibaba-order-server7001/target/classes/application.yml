@@ -1,0 +1,12 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: cloudalibaba-order-server7001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.66.208.187:8848
+servers:
+  coustumer:
+    url: http://cloudalibaba-provider-payment9001
